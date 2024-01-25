@@ -1,0 +1,41 @@
+body {
+    border: 1px solid #ccc;
+    max-width: 780px;
+    margin: 20px auto;
+    background-color: white;
+}
+.Post-header{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px
+}
+.Post-header-text {
+    display: flex;
+}
+h2 {
+    margin: 0;
+}
+.Post-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.5;
+}
+#iconhtml, #icontrespuntos {
+    font-size: 4vh;
+}
+#iconguardado, #iconavion, #iconcorazon, #iconmensaje {
+    font-size: 4vh;
+}
+.Post-body {
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    width: 100%;
+}
